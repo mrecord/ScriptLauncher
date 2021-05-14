@@ -49,7 +49,7 @@ Acknowledgements
     name ScriptLauncher.
 
 -   Thank you to my friends and coworkers at [Commercial
-    Type](commercialtype.com).
+    Type](https://commercialtype.com).
 
 -   And thank you to [David Jonathan Ross](https://www.djr.com/) for
     testing and feedback.
