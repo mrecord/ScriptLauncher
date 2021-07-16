@@ -29,7 +29,7 @@ class scriptLauncher(object):
 
 		## Window
 		width = 500
-		height = 168
+		height = 200
 
 		screen = NSScreen.mainScreen()
 		screenRect = screen.frame()
