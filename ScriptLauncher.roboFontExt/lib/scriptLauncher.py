@@ -156,10 +156,10 @@ class scriptLauncher(object):
 		config = configparser.ConfigParser()
 		config.read(self.preferencesFile)
 
-		if self.d.extensions_path.get() != "default":
-			config['PATHS']["extensionsDir"] = self.d.extensions_path.get()
-		if self.d.scripts_path.get() != "default":
-			config['PATHS']["scriptsDir"] = self.d.scripts_path.get()
+		if self.extensionsDirectory != "default":
+			config['PATHS']["extensionsDir"] = self.extensionsDirectory
+		if self.scriptsDirectory != "default":
+			config['PATHS']["scriptsDir"] = self.scriptsDirectory
 		config['REMEMBER'] = {"rememberLast" : self.d.remember_count.get()}
 		config['SEARCHLOCAL'] = {
 			"value" : self.d.local_search_checkbox.get(),
